@@ -16,5 +16,5 @@ This was designed as part of Doctoral Thesis on Computer Architecture and as a r
 [![LED Loop C](http://img.youtube.com/vi/yn9c27IgR7Y/0.jpg)](http://www.youtube.com/watch?v=yn9c27IgR7Y "Led Loop C")
 
 ![Block Diagram](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V2p_BlockDiagram.png?raw=true)
-
+![Timming](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V-timming.png?raw=true)
 
