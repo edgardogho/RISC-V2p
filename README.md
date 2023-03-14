@@ -11,6 +11,10 @@ Sample programs provided to read QSPI content and send using UART back to PC. Al
 This was designed as part of Doctoral Thesis on Computer Architecture and as a research project at Universidad Nacional de La Matanza.
 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/l1cmGXBUMbE/0.jpg)](http://www.youtube.com/watch?v=l1cmGXBUMbE "QSPI and UART test")
+[![QSPI and UART](http://img.youtube.com/vi/l1cmGXBUMbE/0.jpg)](http://www.youtube.com/watch?v=l1cmGXBUMbE "QSPI and UART test")
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/yn9c27IgR7Y/0.jpg)](http://www.youtube.com/watch?v=yn9c27IgR7Y "Led Loop C")
+[![LED Loop C](http://img.youtube.com/vi/yn9c27IgR7Y/0.jpg)](http://www.youtube.com/watch?v=yn9c27IgR7Y "Led Loop C")
+
+![Block Diagram](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V2p_BlockDiagram.png?raw=true)
+
+
