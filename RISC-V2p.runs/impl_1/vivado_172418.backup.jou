@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Mar 13 17:06:33 2023
+# Process ID: 172418
+# Current directory: /home/edgardog/Verilog/RISC-V2p/RISC-V2p.runs/impl_1
+# Command line: vivado -log RISCV2P.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RISCV2P.tcl -notrace
+# Log file: /home/edgardog/Verilog/RISC-V2p/RISC-V2p.runs/impl_1/RISCV2P.vdi
+# Journal file: /home/edgardog/Verilog/RISC-V2p/RISC-V2p.runs/impl_1/vivado.jou
+# Running On: pop-os, OS: Linux, CPU Frequency: 2300.000 MHz, CPU Physical cores: 8, Host memory: 33504 MB
+#-----------------------------------------------------------
+source RISCV2P.tcl -notrace

@@ -1,0 +1,3 @@
+InstructionMemory_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/InstructionMemory/ip/InstructionMemory_blk_mem_gen_0_0/sim/InstructionMemory_blk_mem_gen_0_0.v,
+InstructionMemory.v,verilog,xil_defaultlib,../../../bd/InstructionMemory/sim/InstructionMemory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

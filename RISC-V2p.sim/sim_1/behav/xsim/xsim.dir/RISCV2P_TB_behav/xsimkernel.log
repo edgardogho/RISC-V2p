@@ -1,0 +1,7 @@
+Running: xsim.dir/RISCV2P_TB_behav/xsimk -simmode gui -wdb RISCV2P_TB_behav.wdb -simrunnum 0 -socket 58727
+Design successfully loaded
+Design Loading Memory Usage: 31812 KB (Peak: 31812 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 118392 KB (Peak: 171080 KB)
+Simulation CPU Usage: 60 ms

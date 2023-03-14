@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/edgardog/Verilog/RISC-V2p/RISC-V2p.ip_user_files/bd/Adder/ip/Adder_c_addsub_0_0/Adder_c_addsub_0_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_c_addsub_v12_0_14
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_c_addsub_v12_0_14_viv
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_xbip_addsub_v3_0_6_viv
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_xbip_dsp48_addsub_synth
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_xbip_dsp48_addsub_v3_0_6_viv
+INFO: [VRFC 10-311] analyzing module Adder_c_addsub_0_0_xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-311] analyzing module glbl

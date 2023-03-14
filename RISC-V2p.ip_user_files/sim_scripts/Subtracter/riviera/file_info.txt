@@ -1,0 +1,3 @@
+Subtracter_c_addsub_0_0_sim_netlist.v,verilog,xil_defaultlib,/home/edgardog/Verilog/RISC-V2p/RISC-V2p.gen/sources_1/bd/Subtracter/ip/Subtracter_c_addsub_0_0/Subtracter_c_addsub_0_0_sim_netlist.v,
+Subtracter.v,verilog,xil_defaultlib,../../../bd/Subtracter/sim/Subtracter.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

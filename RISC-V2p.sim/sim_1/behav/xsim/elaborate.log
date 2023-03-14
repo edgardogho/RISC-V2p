@@ -1,0 +1,48 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RISCV2P_TB_behav xil_defaultlib.RISCV2P_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Latch
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.Adder_c_addsub_0_0
+Compiling module xil_defaultlib.Adder
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.InstructionMemory_blk_mem_gen_0_...
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.Decoder
+Compiling module xil_defaultlib.IMM
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.Subtracter_c_addsub_0_0
+Compiling module xil_defaultlib.Subtracter
+Compiling module xil_defaultlib.BarrelShifterLeft
+Compiling module xil_defaultlib.BarrelShifterRight
+Compiling module xil_defaultlib.BarrelShifterRightArith
+Compiling module xil_defaultlib.CCR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.TXCounter
+Compiling module xil_defaultlib.RXCounter
+Compiling module xil_defaultlib.RXUnit
+Compiling module xil_defaultlib.UART
+Compiling module xil_defaultlib.SPI
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.SharedRAM_blk_mem_gen_0_0
+Compiling module xil_defaultlib.SharedRAM
+Compiling module xil_defaultlib.MEMIO
+Compiling module xil_defaultlib.SignExt
+Compiling module xil_defaultlib.RISCV2P
+Compiling module xil_defaultlib.RISCV2P_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISCV2P_TB_behav

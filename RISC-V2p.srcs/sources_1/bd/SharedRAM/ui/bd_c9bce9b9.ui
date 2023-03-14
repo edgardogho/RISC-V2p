@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-498,-242",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_DataCE -pg 1 -lvl 0 -x -50 -y -150 -defaultsOSRD
+preplace port port-id_Clock -pg 1 -lvl 0 -x -50 -y -110 -defaultsOSRD
+preplace port port-id_Reset -pg 1 -lvl 0 -x -50 -y 120 -defaultsOSRD
+preplace port port-id_InstructionCE -pg 1 -lvl 0 -x -50 -y -30 -defaultsOSRD
+preplace portBus DataAddress -pg 1 -lvl 0 -x -50 -y -190 -defaultsOSRD
+preplace portBus DataIn -pg 1 -lvl 0 -x -50 -y -90 -defaultsOSRD
+preplace portBus DataOut -pg 1 -lvl 2 -x 280 -y 70 -defaultsOSRD
+preplace portBus DataWrite -pg 1 -lvl 0 -x -50 -y 70 -defaultsOSRD
+preplace portBus InstructionAddress -pg 1 -lvl 0 -x -50 -y 20 -defaultsOSRD
+preplace portBus InstructionOut -pg 1 -lvl 2 -x 280 -y 130 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -x 140 -y 0 -defaultsOSRD
+preplace netloc Clock_1 1 0 1 0 -110n
+preplace netloc DataAddress_1 1 0 1 20 -190n
+preplace netloc DataCE_1 1 0 1 10 -150n
+preplace netloc DataIn_1 1 0 1 -30 -90n
+preplace netloc DataWrite_1 1 0 1 -20 10n
+preplace netloc InstructionAddress_1 1 0 1 -10 20n
+preplace netloc InstructionCE_1 1 0 1 -30 -30n
+preplace netloc Reset_1 1 0 1 10 -10n
+preplace netloc blk_mem_gen_0_douta 1 0 2 20 210 240J
+preplace netloc blk_mem_gen_0_doutb 1 0 2 30 220 250J
+levelinfo -pg 1 -50 140 280
+pagesize -pg 1 -db -bbox -sgen -280 -210 480 230
+"
+}
+0

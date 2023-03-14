@@ -1,0 +1,10 @@
+//This needs to be included before running any C program
+//to force the stack pointer to RAM top (0x10001FFF)
+//and GP to 0x10000000
+
+//Force x3=0x10000000
+//Force x2=0x10001FFF
+
+    0:        10002137        lui x2 0x10002
+    4:        fff10113        addi x2 x2 -1
+    8:        100001b7        lui x3 0x10000

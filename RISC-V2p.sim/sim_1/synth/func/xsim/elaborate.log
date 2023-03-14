@@ -1,0 +1,88 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot RISCV2P_TB_func_synth xil_defaultlib.RISCV2P_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.Subtracter_c_addsub_0_0
+Compiling module xil_defaultlib.Subtracter
+Compiling module xil_defaultlib.Adder_c_addsub_0_0
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ALU
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB36E1(INITP_00=256'b010001011...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB36E1(INIT_00=256'b0111111100...
+Compiling module xil_defaultlib.InstructionMemory_blk_mem_gen_0_...
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(READ_WIDTH_A=18,READ_WI...
+Compiling module xil_defaultlib.SharedRAM_blk_mem_gen_0_0
+Compiling module xil_defaultlib.SharedRAM
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.SPI
+Compiling module xil_defaultlib.RXCounter
+Compiling module xil_defaultlib.RXUnit
+Compiling module xil_defaultlib.TXCounter
+Compiling module xil_defaultlib.UART
+Compiling module unisims_ver.FDPE_default
+Compiling module xil_defaultlib.MEMIO
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.Adder__xdcDup__1
+Compiling module xil_defaultlib.Adder__xdcDup__2
+Compiling module xil_defaultlib.Latch_0
+Compiling module xil_defaultlib.Latch_1
+Compiling module xil_defaultlib.Latch_2
+Compiling module xil_defaultlib.Latch_3
+Compiling module xil_defaultlib.Latch_4
+Compiling module xil_defaultlib.Latch_5
+Compiling module xil_defaultlib.Latch_6
+Compiling module xil_defaultlib.Latch_7
+Compiling module xil_defaultlib.Latch_8
+Compiling module xil_defaultlib.Latch_9
+Compiling module xil_defaultlib.Latch_10
+Compiling module xil_defaultlib.Latch_11
+Compiling module xil_defaultlib.Latch_12
+Compiling module xil_defaultlib.Latch_13
+Compiling module xil_defaultlib.Latch_14
+Compiling module xil_defaultlib.Latch_15
+Compiling module xil_defaultlib.Latch_16
+Compiling module xil_defaultlib.Latch_17
+Compiling module xil_defaultlib.Latch_18
+Compiling module xil_defaultlib.Latch_19
+Compiling module xil_defaultlib.Latch_20
+Compiling module xil_defaultlib.Latch_21
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.Latch_22
+Compiling module xil_defaultlib.Latch_23
+Compiling module xil_defaultlib.Latch_24
+Compiling module xil_defaultlib.Latch_25
+Compiling module xil_defaultlib.Latch_26
+Compiling module xil_defaultlib.Latch_27
+Compiling module xil_defaultlib.Latch_28
+Compiling module xil_defaultlib.Latch_29
+Compiling module xil_defaultlib.Latch_30
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.RISCV2P
+Compiling module xil_defaultlib.RISCV2P_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISCV2P_TB_func_synth

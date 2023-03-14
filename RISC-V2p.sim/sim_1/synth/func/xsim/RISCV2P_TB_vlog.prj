@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"RISCV2P_TB_func_synth.v" \
+"../../../../../RISC-V2p.srcs/sim_1/new/RISCV2P_TB.v" \
+
+# Do not sort compile order
+nosort

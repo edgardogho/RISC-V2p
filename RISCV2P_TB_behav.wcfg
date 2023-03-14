@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISCV2P_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISCV2P_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="436.100 ns"></ZoomStartTime>
+      <ZoomEndTime time="536.728 ns"></ZoomEndTime>
+      <Cursor1Time time="457.797 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="59" />
+   <wvobject type="logic" fp_name="/RISCV2P_TB/Clock">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/Reset">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/Leds">
+      <obj_property name="ElementShortName">Leds[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Leds[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/Buttons">
+      <obj_property name="ElementShortName">Buttons[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Buttons[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/pc_out">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/cycle">
+      <obj_property name="ElementShortName">cycle[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/inst">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/imm">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/pc_ce">
+      <obj_property name="ElementShortName">pc_ce</obj_property>
+      <obj_property name="ObjectShortName">pc_ce</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/rdmux">
+      <obj_property name="ElementShortName">rdmux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rdmux[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/branch">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/RD_CE">
+      <obj_property name="ElementShortName">RD_CE</obj_property>
+      <obj_property name="ObjectShortName">RD_CE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/R">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/I">
+      <obj_property name="ElementShortName">I</obj_property>
+      <obj_property name="ObjectShortName">I</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/LUI">
+      <obj_property name="ElementShortName">LUI</obj_property>
+      <obj_property name="ObjectShortName">LUI</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/AUIPC">
+      <obj_property name="ElementShortName">AUIPC</obj_property>
+      <obj_property name="ObjectShortName">AUIPC</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/B">
+      <obj_property name="ElementShortName">B</obj_property>
+      <obj_property name="ObjectShortName">B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/JAL">
+      <obj_property name="ElementShortName">JAL</obj_property>
+      <obj_property name="ObjectShortName">JAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/JALR">
+      <obj_property name="ElementShortName">JALR</obj_property>
+      <obj_property name="ObjectShortName">JALR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/S">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/L">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/CCR">
+      <obj_property name="ElementShortName">CCR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CCR[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/ALU_U0/a">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/ALU_U0/b">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/ALU_U0/s">
+      <obj_property name="ElementShortName">s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/S2">
+      <obj_property name="ElementShortName">S2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RISCV2P_TB/U0/memio_ce">
+      <obj_property name="ElementShortName">memio_ce</obj_property>
+      <obj_property name="ObjectShortName">memio_ce</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x0">
+      <obj_property name="ElementShortName">x0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x1">
+      <obj_property name="ElementShortName">x1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x2">
+      <obj_property name="ElementShortName">x2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x3">
+      <obj_property name="ElementShortName">x3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x4">
+      <obj_property name="ElementShortName">x4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x5">
+      <obj_property name="ElementShortName">x5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x6">
+      <obj_property name="ElementShortName">x6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x7">
+      <obj_property name="ElementShortName">x7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x7[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x8">
+      <obj_property name="ElementShortName">x8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x8[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x9">
+      <obj_property name="ElementShortName">x9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x9[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x10">
+      <obj_property name="ElementShortName">x10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x10[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x11">
+      <obj_property name="ElementShortName">x11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x11[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x12">
+      <obj_property name="ElementShortName">x12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x12[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x13">
+      <obj_property name="ElementShortName">x13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x13[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x14">
+      <obj_property name="ElementShortName">x14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x14[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x15">
+      <obj_property name="ElementShortName">x15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x15[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x16">
+      <obj_property name="ElementShortName">x16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x16[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x17">
+      <obj_property name="ElementShortName">x17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x17[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x18">
+      <obj_property name="ElementShortName">x18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x18[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x19">
+      <obj_property name="ElementShortName">x19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x19[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x20">
+      <obj_property name="ElementShortName">x20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x20[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x21">
+      <obj_property name="ElementShortName">x21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x21[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x22">
+      <obj_property name="ElementShortName">x22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x22[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x23">
+      <obj_property name="ElementShortName">x23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x23[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x24">
+      <obj_property name="ElementShortName">x24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x24[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x25">
+      <obj_property name="ElementShortName">x25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x25[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x26">
+      <obj_property name="ElementShortName">x26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x26[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x27">
+      <obj_property name="ElementShortName">x27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x27[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x28">
+      <obj_property name="ElementShortName">x28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x28[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x29">
+      <obj_property name="ElementShortName">x29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x29[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x30">
+      <obj_property name="ElementShortName">x30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x30[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RISCV2P_TB/U0/RegFile_U0/x31">
+      <obj_property name="ElementShortName">x31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x31[31:0]</obj_property>
+   </wvobject>
+</wave_config>

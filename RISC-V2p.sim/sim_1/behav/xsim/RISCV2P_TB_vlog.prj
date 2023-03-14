@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RISC-V2p.ip_user_files/bd/SharedRAM/ip/SharedRAM_blk_mem_gen_0_0/sim/SharedRAM_blk_mem_gen_0_0.v" \
+"../../../../RISC-V2p.ip_user_files/bd/SharedRAM/sim/SharedRAM.v" \
+"../../../../RISC-V2p.ip_user_files/bd/Adder/ip/Adder_c_addsub_0_0/Adder_c_addsub_0_0_sim_netlist.v" \
+"../../../../RISC-V2p.ip_user_files/bd/Adder/sim/Adder.v" \
+"../../../../RISC-V2p.ip_user_files/bd/Subtracter/ip/Subtracter_c_addsub_0_0/Subtracter_c_addsub_0_0_sim_netlist.v" \
+"../../../../RISC-V2p.ip_user_files/bd/Subtracter/sim/Subtracter.v" \
+"../../../../RISC-V2p.ip_user_files/bd/InstructionMemory/ip/InstructionMemory_blk_mem_gen_0_0/sim/InstructionMemory_blk_mem_gen_0_0.v" \
+"../../../../RISC-V2p.ip_user_files/bd/InstructionMemory/sim/InstructionMemory.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/ALU.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/BarrelShifterLeft.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/BarrelShifterRight.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/BarrelShifterRightArith.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/CCR.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/Decoder.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/IMM.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/Latch.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/MEMIO.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/Mux4.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/RISCV2P.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/RXCounter.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/RXUnit.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/RegFile.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/SPI.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/SignExt.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/TXCounter.v" \
+"../../../../RISC-V2p.srcs/sources_1/new/UART.v" \
+"../../../../RISC-V2p.srcs/sim_1/new/RISCV2P_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
