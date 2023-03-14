@@ -17,4 +17,5 @@ This was designed as part of Doctoral Thesis on Computer Architecture and as a r
 
 ![Block Diagram](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V2p_BlockDiagram.png?raw=true)
 ![Timming](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V-timming.png?raw=true)
+![Sequence](https://github.com/edgardogho/RISC-V2p/blob/main/RISC-V2p_Table.png?raw=true)
 
